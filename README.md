@@ -6,8 +6,8 @@ Running environment as follows:
     python = 3.6.13
     pytorch = 1.4.0
     numpy = 1.19.2
-    tensorflow-gpu = 1.13.2
     torch = 1.10.2
+    tensorflow-gpu = 1.13.2
 If you want to inpsect the completeness of our code, you could use the datasets that we have provided.And you need to merge imagesDataset_part_aa.npy,imagesDataset_part_ab.npy and imagesDataset_part_ac.npy  into the file called imagesDataset_.npy while replace the original imagesDataset_.npy.After that,you can run the `main.py` successfully.
 
 In general, I sure you don't just want to run our code.And now,let me tell you how to modify our code if you will use your own datasets.
